@@ -1,0 +1,31 @@
+name: smBlog Module
+description: |
+    smBlog is a simple blogging module for smCore.
+identifier: org.smblog
+version: 1.0
+author:
+    name: James Robson
+    website: http://www.sorck.net
+
+namespaces:
+    php:      smCore\Modules\smBlog
+    lang:     blog
+    template: blog
+
+routes:
+    main:
+        match: [blog, blog/:id_page]
+        controller: Main
+        method: blogIndex
+    blog_post:
+        match: blog/post/:id_post
+        controller: Main
+        method: blogPost
+    blog_tag:
+        match: blog/tag/:tag
+        controller: Main
+        method: blogTag
+    blog_search:
+        match: [blog/search, blog/search/:qry]
+        controller: Main
+        method blogSearch
