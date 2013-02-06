@@ -29,19 +29,19 @@ use smCore\Module\Controller;
 
 class Main extends Controller
 {
-    public function BlogIndex()
+    public function blogIndex()
     {
         
     }
-    public function BlogPost()
+    public function blogPost()
     {
         
     }
-    public function BlogTags()
+    public function blogTags()
     {
         
     }
-    public function BlogSearch()
+    public function blogSearch()
     {
         
     }
