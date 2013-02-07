@@ -1,6 +1,0 @@
-{"ts":1360225342207,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":true,"ts":1360225361386,"patch":[[{"diffs":[[1,"{% extends \"layout.html\" %}\r\n\r\n{% set page_title = \"Hello World\" %}\r\n\r\n{% block body %}\r\n    \t<div class=\"well\">\r\n\t\t\tHello World!\r\n\t\t</div>\r\n{% endblock %}"]],"start1":0,"start2":0,"length1":0,"length2":155}]],"length":155,"saved":false}
-{"ts":1360225367073,"patch":[[{"diffs":[[0,"itle = \""],[-1,"Hello World"],[1,"Blog"],[0,"\" %}\r\n\r\n"]],"start1":44,"start2":44,"length1":27,"length2":20}]],"length":148,"saved":false}
-{"ts":1360225378285,"patch":[[{"diffs":[[0,"   \t"],[-1,"<div class=\"well\">\r\n\t\t\tHello World!\r\n\t\t</div>"],[1,"{# todo #]"],[0,"\r\n{%"]],"start1":83,"start2":83,"length1":53,"length2":18}]],"length":113,"saved":false}
-{"ts":1360225379734,"patch":[[{"diffs":[[0,"do #"],[-1,"]"],[1,"}"],[0,"\r\n{%"]],"start1":92,"start2":92,"length1":9,"length2":9}]],"length":113,"saved":false}
-{"ts":1360225382324,"patch":[[{"diffs":[[0,"    \t{# "],[1,"@"],[0,"todo #}\r"]],"start1":82,"start2":82,"length1":16,"length2":17}]],"length":114,"saved":false}
